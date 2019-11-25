@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    background: #ccc;
+  }
+  
+  #loginText {
+    font-size: 21px;
+    color: white;
+    margin-bottom: 6px;
+  }
+  
+  .rememberText {
+    color: white;
+  }
+  
+  #container {
+    margin-top: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    border-radius: 15px;
+    padding: 0%;
+    height: 210px;
+  }
+  
+  .login {
+    display: inline-block;
+    width: 50%;
+    padding: 29px;
+    border-radius: 15px 0px 0px 15px; 
+    background: #592c85;
+  }
+  
+  .info {
+    display: inline-block;
+    width: 100%;
+    background: white;
+    height: 100%;
+    border-radius: 0px 15px 15px 0px; 
+    }
+  
+  .username {
+    width: 100%;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    padding: 9px;
+    display: block;
+  }
+  
+  .password {
+    width: 100%;
+    margin-bottom: 9px;
+    border-radius: 6px;
+    padding: 9px;
+    display: block;
+  }
+  
+  #submit {
+    padding: 12px 16px 12px 16px;
+    border: none;
+    border-bottom: solid darkslategray 3px;
+    border-right: solid darkslategray 3px;
+    border-radius: 6px;
+    background: lightslategray;
+    color: white;
+    display: flex;
+    margin-top: 3px;
+  }
+  
+  textarea:focus, input:focus{
+      outline: none;
+  }
+  
+  #submit:hover{
+    background: white;
+    color: #592c85;
+  }
+  
+  .info {
+    display: flex;
+    color: #592c85;
+    padding-left: 10%;
+    text-align: center;
+    font-size: 120px;
+    font-weight: bold;
+    margin-right: 12px;
+  }
+  
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
